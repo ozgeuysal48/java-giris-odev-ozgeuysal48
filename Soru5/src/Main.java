@@ -10,10 +10,9 @@ public class Main {
 		System.out.println("The color of circle is : " + circle.getColor() + "\n");
 		System.out.println("The radius of circle is : " + circle.getRadius() + "\n");
 
-		System.out.println("The area of circle is : " + circle.areaOfCircle(circle.getRadius()) + "\n");
+		System.out.println("The area of circle is : " + circle.areaOfCircle() + "\n");
 		
-		circle.radiusOfCircle( circle.areaOfCircle( circle.getRadius()));
+		circle.radiusOfCircle( circle.areaOfCircle() );
 	}
-	
 }
 

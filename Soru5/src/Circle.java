@@ -17,11 +17,11 @@ public class Circle {
 		this.color = color;
 	}
 	
-	public double areaOfCircle(double radius) {
+	public double areaOfCircle() {
 		return radius * radius * Math.PI;
 	}
 	
-	public void radiusOfCircle(double areaofCircle) {
-		System.out.println("The radius of circle is : " + Math.sqrt(areaofCircle / Math.PI)  + "\n");
+	public void radiusOfCircle(double area) {
+		System.out.println("The radius of circle is : " + Math.sqrt(area / Math.PI)  + "\n");
 	}
 }
